@@ -17,7 +17,11 @@ nav{
     color:#FD6E0A;
 }
 .header{
-    background-color: #FFF8F3;
+    background-color:#FFF8F3;
+    background-image: url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 .btn-primary{
    
@@ -26,6 +30,7 @@ nav{
     border:0px;
     font-size: 20px;
     color:white;
+    
    
     font-weight: 700;
     padding:15px 35px;
@@ -55,7 +60,7 @@ nav li{
     color:#474747;
  }
 .baner{
-    padding:30px 30px 30px 150px;
+    padding:30px 30px 0px 150px;
     display:flex;
     align-items: center;
 
@@ -65,4 +70,40 @@ nav li{
 height: 676px;
 width:584px;
 flex-shrink: 0;
+}
+.baner-greeting{
+    font-size: 45px;
+   color:#474747;
+   margin-bottom: 0;
+}
+.baner-title{
+font-size: 65px;
+font-weight: 700;
+margin-top: 5px;
+}
+.baner-history{
+    color:#757575;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.section-title{
+    color:#181818;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+
+}
+.section-description{
+    color: #757575;
+text-align: center;
+font-size: 18px;
+
+}
+.about{
+    padding:130px;
+    border-radius: 10px;
+background: #FFF8F3;
+margin:130px 0;
 }
