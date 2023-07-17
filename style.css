@@ -67,8 +67,8 @@ nav li{
 }
 .baner .profile{
    
-height: 676px;
-width:584px;
+height: 523px;
+width:552px;
 flex-shrink: 0;
 }
 .baner-greeting{
@@ -84,8 +84,12 @@ margin-top: 5px;
 .baner-history{
     color:#757575;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     padding-bottom: 10px;
+}
+main{
+    max-width: 1140px;
+    margin:0 auto;
 }
 .section-title{
     color:#181818;
@@ -106,4 +110,13 @@ font-size: 18px;
     border-radius: 10px;
 background: #FFF8F3;
 margin:130px 0;
+}
+.about-info-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.about-info{
+    text-align: center;
 }
