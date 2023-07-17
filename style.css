@@ -11,9 +11,13 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin:0 200px;
 }
 .text-primary{
     color:#FD6E0A;
+}
+.header{
+    background-color: #FFF8F3;
 }
 .btn-primary{
    
@@ -50,3 +54,15 @@ nav li{
     text-decoration: none;
     color:#474747;
  }
+.baner{
+    padding:30px 30px 30px 150px;
+    display:flex;
+    align-items: center;
+
+}
+.baner .profile{
+   
+height: 676px;
+width:584px;
+flex-shrink: 0;
+}
