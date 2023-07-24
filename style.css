@@ -105,6 +105,9 @@ text-align: center;
 font-size: 18px;
 
 }
+main section{
+    margin-top: 130px;
+}
 .about{
     padding:130px;
     border-radius: 10px;
@@ -119,4 +122,29 @@ margin:130px 0;
 }
 .about-info{
     text-align: center;
+}
+
+.skills-container{
+    display:flex;
+    gap:24px;
+}
+.skill{
+    padding: 50px;
+    
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    padding:30px;
+    color: var(--dark-03, #757575);
+
+}
+#waht-i-do-description{
+    padding:30px 150px;
+}
+.resume-colum-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
 }
